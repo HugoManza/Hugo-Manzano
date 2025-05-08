@@ -1,0 +1,148 @@
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+    .me {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        height: auto;
+
+        p {
+            padding: 1rem;
+            height: fit-content;
+            width: 60%;
+            font-weight: 100;
+        }
+
+        .imgMe {
+            display: flex;
+            width: 40%;
+            max-height: 23rem;
+
+            img {
+                display: flex;
+                object-fit: cover;
+                width: 100%;
+
+
+
+            }
+        }
+    }
+}
+
+.skills {
+    display: flex;
+    width: 70%;
+    gap: 1rem;
+    flex-direction: column;
+
+    .skillSelect {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: .5rem;
+        
+
+        .skillList {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                display: flex;
+                 a {
+                    color: $dark-gray;
+                 }
+
+                :hover {
+                    
+                    color: $accent-color;
+                }
+
+               
+            }
+
+        }
+    }
+
+    .skillShow {
+
+        align-self: center;
+        width: 80%;
+        padding: 2rem;
+        padding-bottom: 0rem;
+
+        img {
+            width: 100%;
+            height: 60vh;
+            /* or whatever fixed height you prefer */
+            object-fit:cover;
+            /* ensures the image covers the area nicely without distortion */
+        }
+
+    }
+}
+
+.carousel {
+    object-fit: cover;
+
+    .carousel-inner {
+        border-radius: 1rem;
+        width: 100%;
+
+        object-fit: cover;
+
+        .active {
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel-item {
+
+         
+
+        }
+    }
+}
+
+
+.moreInfo {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    ul {
+        list-style-type: circle;
+        list-style-position: inside;
+        font-size: small;
+
+    }
+
+    .formation {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 40%;
+
+        .lists {
+            display: flex;
+            gap: 1rem;
+
+            .year {
+                list-style-type: none;
+            }
+        }
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 40%;
+    }
+}

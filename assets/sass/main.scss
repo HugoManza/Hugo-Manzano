@@ -1,0 +1,31 @@
+//
+@import "./partials/reset";
+@import "./partials/vars";
+@import "./partials/mixins";
+
+* {
+    border: 0px solid tomato;
+}
+
+:root {
+    @include text;
+}
+
+body {
+    background-color: $base-color;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    scroll-behavior: smooth
+
+}
+
+main {
+    width: 100%;
+}
+
+@import "./partials/_header.scss";
+@import "./partials/_selection.scss";
+@import "./partials/_about.scss";
+@import "./partials/_portfolio.scss";

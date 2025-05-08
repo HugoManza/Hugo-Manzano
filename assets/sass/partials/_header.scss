@@ -1,0 +1,19 @@
+.mainName {
+   display: flex;
+   width: 100%;
+   height: 100vh;
+
+   align-self: center;
+   justify-content: center;
+
+   .nameBox {
+
+      display: flex;
+      width: auto;
+      align-self: center;
+      justify-content: center;
+      position:fixed;
+      z-index: -1;
+
+   }
+}

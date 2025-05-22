@@ -12,104 +12,116 @@
     <link href="/assets/css/main.css.map">
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
     <!-- Bootstrap set up -->
-
-
 </head>
 
-<body data-barba="wrapper">
+<body>
     <header class="mainName">
         <div class="nameBox" id="nameBox">
             <h1>Hugo <br> Manzano</h1>
         </div>
     </header>
-    <main data-barba="container" data-barba-namespace="home">
+    <main>
         <nav class="selection">
-
-            <a href="./about.html" class="about sel ">
+            <button class="about sel">
                 <h3>About</h3>
-            </a>
-            <a href="./index.html" class="proyects middle sel">
+            </button>
+            <button class="proyects sel activeSel">
                 <h3>Portolio</h3>
-            </a>
-            <a href="./contact.html" class="contact sel">
+            </button>
+            <button class="contact sel">
                 <h3>Contact</h3>
-            </a>
-
+            </button>
         </nav>
         <div class="home">
-            <div class="portLis">
-                <ul class="portSel">
-                    <li>
-                        <h5><a href="">Maquetación </a></h5>
-                    </li>
-                    <li>
-                        <h5><a href=""> Web </a></h5>
-
-                    </li>
-                    <li>
-                        <h5><a href="">Motion </a></h5>
-                    </li>
-                    <li>
-                        <h5><a href="">Branding</a> </h5>
-                    </li>
-                    <li>
-                        <h5><a href="">Ilustración </a></h5>
-                    </li>
-                </ul>
+            <div class="portfolio sec">
                 <ul class="portImgs">
-                    <li class="contPort"><img src="./assets/img/BabyDriver/BabyDriver (0).JPG" alt="">
-                        <div class="infoPort">
-                            <h5 class="title">Baby Driver</h5>
-                            <div class="blackPort"></div>
-                        </div>
-
-                    </li>
-                    <li class="contPort"><img src="./assets/img/DLHaTP/HTP (0).jpg" alt="">
-                        <div class="infoPort">
-                            <h5 class="title">Baby Driver</h5>
-                            <div class="blackPort"></div>
-                        </div>
-
-                    </li>
-                    <li class="contPort"><img src="./assets/img/Teatros/Teatros (1).jpg" alt="">
-                        <div class="infoPort">
-                            <h5 class="title">Baby Driver</h5>
-                            <div class="blackPort"></div>
-                        </div>
-
-                    </li>
-                    <li class="contPort"><img src="./assets/img/ÑAÑAÑA/NA (1).jpg" alt="">
-                        <div class="infoPort">
-                            <h5 class="title">Baby Driver</h5>
-                            <div class="blackPort"></div>
-                        </div>
-
-                    </li>
+                    <li class="portItem"> <img src="" alt=""></li>
+                    <!-- Portfolio items will be dynamically generated here -->
                 </ul>
             </div>
-        </div>
-        <div class="portShow">
-            <div class="contShow">
-                <ul class="showImgs">
-                    <li><img src="./assets/img/ÑAÑAÑA/NA (1).jpg" alt=""></li>
-                    <li><img src="./assets/img/ÑAÑAÑA/NA (2).jpg" alt=""></li>
-                </ul>
-                <div class="showInfo">
-                    <h4 class="title">ÑAÑAÑA</h4>
-                    <p class="description">description</p>
+            <div class="about sec">
+
+                <div class="containerAbout">
+                    <h4>Sobre Mi</h4>
+                    <div class="me">
+                        <p>¡Hola! Soy Hugo, un diseñador gráfico dedicado a la creación de proyectos únicos y
+                            siempre desde
+                            una
+                            perspectiva diferente. <br><br> Buscando siempre aprender y crear.
+                            Con mi principal educación superior siendo en España, se manejar una gran variedad de
+                            programas,
+                            desde la Suite de Adobe a desarrollo web en Figma y Visual Studio, centrándome en la
+                            sección de
+                            front-end con HTML, CSS, Javascript y Node (Véase la web).
+                            <br><br>He pasado 10 años viviendo en EEUU, convirtiendome en bilingüe (Español -
+                            Inglés), y
+                            donde he
+                            aprendido y desarrollado mis habilidades de liderazgo de equipo, al igual que de oración
+                            y
+                            presentación. Competencias que han sido clave a lo largo de mi carrera profesional,
+                            ayudándome a
+                            conectar tanto con clientes, como con mis compañeros y obtener resultados mucho mejor de
+                            lo que
+                            se
+                            esperaba. <br><br>
+                            Mi vuelta a España me ayudó a evolucionar mi proceso de pensamiento y me ayudó a
+                            afrontar mis
+                            dificultades desde otro punto de vista, al igual que adquirir nuevas perspectivas.
+                            Aparte, es
+                            aquí
+                            donde he sido capaz de expandir mi pasión por el diseño gráfico, y donde he tenido la
+                            oportunidad de
+                            estudiar en la Escuela Superior de Diseño de Madrid.
+                            ¡Espero que disfrutes de mis proyectos tanto como yo creándolos!
+                        </p>
+                        <div class="imgMe">
+                            <img src="/assets/img/Profesional.jpeg" alt="">
+                        </div>
+                    </div>
                 </div>
+
+                <div class="moreInfo">
+                    <div class="formation">
+                        <h4>Formación</h4>
+                        <div class="lists">
+                            <ul>
+                                <li>Escuela Superior de Diseño</li>
+                                <li>Bachillerato - IES Ávalon</li>
+                                <li>Dougherty Valley Highschool</li>
+
+                            </ul>
+                            <ul class="year">
+                                <li>2023-2027</li>
+                                <li>2021-2023</li>
+                                <li>2018-2021</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <h4>Reconocimientos</h4>
+                        <ul>
+                            <li>VI Design Award ANFACO-Fundación Banco Sabadell Finalist</li>
+                            <li>English C1</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+            <div class="contact sec"></div>
+
+
         </div>
+
 
     </main>
 
-
-    <!-- Bootstrap set up -->
+    <!-- Scripts -->
     <script defer type="module" src="/app/main.js"></script>
     <script defer type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
-
 </body>
+
 
 </html>

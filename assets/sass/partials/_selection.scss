@@ -10,40 +10,26 @@
     padding: 0 .5rem;
     padding-bottom: 0rem;
 
-    
-
-    :hover {
-        color: $accent-color;
-    }
-
-    .middle {
-        color: $accent-color !important;
-
+    .sel {
+        color: $dark-gray;
         padding: .75rem 3rem;
-        border-bottom: 2px solid $accent-color;
-
-
-
-        :hover {
+        border-bottom: 2px solid transparent;
+        transition: color 0.3s ease, border-bottom 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        
+        &:hover {
             color: $accent-color;
         }
-
     }
 
-    .sel {
-        color: $white;
+    .activeSel {
+        color: $accent-color !important;
+        padding: .75rem 3rem;
+        border-bottom: 2px solid $accent-color;
+        
+        &:hover {
+            color: $accent-color;
+        }
     }
-  
-
-
-}
-
-.home {
-    padding: 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-    background-color: $white;
-    width: 100%;
 }

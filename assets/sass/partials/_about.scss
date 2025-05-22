@@ -1,34 +1,47 @@
-.containerAbout {
-    display: flex;
+.about {
+    display: none;
     flex-direction: column;
+    align-items: center;
     width: 70%;
 
-
-    .me {
+    .containerAbout {
         display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        height: auto;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
 
-        p {
-            padding: 1rem;
-            height: fit-content;
-            width: 60%;
-            font-weight: 100;
-        }
 
-        .imgMe {
+        .me {
             display: flex;
-            width: 40%;
-            max-height: 23rem;
+            flex-direction: row;
+            gap: 1rem;
+            height: auto;
+            align-items: center;
 
-            img {
+            p {
+                padding: 1rem;
+                height: fit-content;
+                width: 60%;
+                font-weight: 100;
+            }
+
+            .imgMe {
                 display: flex;
+                width: 50%;
+                max-height: 23rem;
+                border-radius: 1rem;
                 object-fit: cover;
-                width: 100%;
+
+                img {
+                    display: flex;
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius: 1rem;
 
 
 
+
+                }
             }
         }
     }
@@ -36,86 +49,88 @@
 
 .skills {
     display: flex;
-    width: 70%;
+    width: 100%;
     gap: 1rem;
     flex-direction: column;
+    padding: 2rem;
 
-    .skillSelect {
-        width: 100%;
+    .skillBox {
         display: flex;
         flex-direction: column;
-        align-self: center;
-        gap: .5rem;
-        
-
-        .skillList {
-            display: flex;
-            justify-content: space-between;
-
-            li {
-                display: flex;
-                 a {
-                    color: $dark-gray;
-                 }
-
-                :hover {
-                    
-                    color: $base-color;
-                }
-
-               
-            }
-
-        }
-    }
-
-    .skillShow {
-
-        align-self: center;
-        width: 80%;
-        padding: 2rem;
-        padding-bottom: 0rem;
-
-        img {
-            width: 100%;
-            height: 60vh;
-            /* or whatever fixed height you prefer */
-            object-fit:cover;
-            /* ensures the image covers the area nicely without distortion */
-        }
-
-    }
-}
-
-.carousel {
-    object-fit: cover;
-
-    .carousel-inner {
-        border-radius: 1rem;
         width: 100%;
 
-        object-fit: cover;
+        .skillShow {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: .5rem;
 
-        .active {
-            width: 100%;
-            height: 100%;
-        }
+            .boxSkill {
+                width: 45%;
+                padding: .25rem;
+                gap: .25rem;
+                display: flex;
+                flex-direction: column;
+            }
 
-        .carousel-item {
+            h5 {
+                display: flex;
+                width: auto;
+            }
 
-         
+            .bar {
 
+                background-color: $base-color;
+                border-radius: 99999px;
+
+                height: 15px;
+            }
+
+            .one {
+                width: 100%;
+            }
+
+            .nineFive {
+                width: 95%;
+            }
+
+            .nine {
+                width: 90%;
+            }
+
+            .eightFive {
+                width: 85%;
+            }
+
+            .eight {
+                width: 80%;
+            }
+
+            .sevenFive {
+                width: 75%;
+            }
+
+            .seven {
+                width: 70%;
+            }
+
+            .six {
+                width: 60%;
+            }
         }
     }
+
+
+
 }
 
-
 .moreInfo {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-
+padding: 2rem;
     ul {
         list-style-type: circle;
         list-style-position: inside;

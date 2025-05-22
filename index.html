@@ -16,13 +16,13 @@
 
 <body>
     <header class="mainName">
-        <div class="nameBox" id="nameBox">
-            <h1>Hugo <br> Manzano</h1>
+        <div class="nameBox">
+            <h1 id="nameBox">Hugo  </h1>
         </div>
     </header>
     <main>
         <nav class="selection">
-            <button class="about sel">
+            <button class="aboutBut sel">
                 <h3>About</h3>
             </button>
             <button class="proyects sel activeSel">
@@ -38,6 +38,10 @@
                     <li class="portItem"> <img src="" alt=""></li>
                     <!-- Portfolio items will be dynamically generated here -->
                 </ul>
+
+                <div class="portBox">
+                    
+                </div>
             </div>
             <div class="about sec">
 
@@ -80,6 +84,55 @@
                     </div>
                 </div>
 
+                <div class="skills">
+                    <h4>Skills</h4>
+                    <div class="skillBox">
+                        <section class="skillShow">
+                            <div class="boxSkill">
+                                <h5>Photoshop</h5>
+                                <div class="bar nine"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>Figma</h5>
+                                <div class="bar eight"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>Ilustrator</h5>
+                                <div class="bar seven"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>Front End</h5>
+                                <div class="bar nineFive"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>InDesign</h5>
+                                <div class="bar eightFive"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>After Effects</h5>
+                                <div class="bar seven"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>DaVinci Resolve</h5>
+                                <div class="bar nineFive"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>DaVinci Resolve</h5>
+                                <div class="bar nine"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>Content Creation & Direction</h5>
+                                <div class="bar eightFive"></div>
+                            </div>
+                            <div class="boxSkill">
+                                <h5>Team Direction</h5>
+                                <div class="bar sevenFive"></div>
+                            </div>
+                            
+                        </section>
+                    </div>
+                </div>
+
                 <div class="moreInfo">
                     <div class="formation">
                         <h4>Formación</h4>
@@ -116,11 +169,15 @@
 
     </main>
 
-    <!-- Scripts -->
-    <script defer type="module" src="/app/main.js"></script>
-    <script defer type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+
+    <script src="https://unpkg.com/typeit/dist/index.umd.js"></script>
+
+    <script src="/app/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+
 </body>
 
 

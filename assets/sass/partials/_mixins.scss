@@ -15,8 +15,8 @@ a {
 }
 
 h1 {
-font-size: 12vw;
-line-height: 9vw;
+font-size: 10vw;
+line-height: 8vw;
 text-transform: uppercase;
 font-weight: bold;
 color: $black;
@@ -38,11 +38,12 @@ h3 {
 }
 
 h4 {
-    font-weight: bold;
+    font-weight: light;
     font-size: medium;
-    text-decoration: none;
+    text-decoration: underline;
     color: $black;
     margin: 0;
+    text-transform: uppercase;
 }
 
 h5 {

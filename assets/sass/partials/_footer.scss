@@ -1,0 +1,65 @@
+.foot {
+    display: flex;
+    background-color: $black;
+
+
+    padding: 3rem 0;
+    width: 100%;
+    border-top: 2px solid $accent-color;
+    flex-direction: column;
+
+    .footBox {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        color: $dark-gray;
+        align-items: center;
+
+        p {
+            color: $dark-gray;
+        }
+
+        .footList {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            width: 70%;
+            align-items: center;
+
+            .footItem {
+
+                padding: .7rem 1.2rem;
+
+                transition: background-color .3s ease;
+                gap: 1rem;
+                display: flex;
+                color: $white;
+                align-items: center;
+                justify-content: center;
+                fill: $dark-gray;
+
+                h5 {
+                    color: $dark-gray;
+                }
+            }
+
+            .footItem:hover {
+
+                h5 {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footList {
+        a {
+            h5 {
+                display: none;
+            }
+        }
+    }
+}

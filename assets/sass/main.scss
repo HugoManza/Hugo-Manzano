@@ -11,6 +11,29 @@
     @include text;
 }
 
+
+
+@import "./partials/_header.scss";
+@import "./partials/_selection.scss";
+@import "./partials/_about.scss";
+@import "./partials/_portfolio.scss";
+@import "./partials/_contact.scss";
+@import "./partials/_footer.scss";
+
+
+
+.home {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: $white;
+    width: 100%;
+    min-height: 100vh;
+    transition: opacity 4s;
+}
+
 body {
     background-color: $base-color;
     align-items: center;
@@ -18,29 +41,10 @@ body {
     flex-direction: column;
     padding: 0rem;
     scroll-behavior: smooth
-
 }
 
 main {
     width: 100%;
-}
-
-@import "./partials/_header.scss";
-@import "./partials/_selection.scss";
-@import "./partials/_about.scss";
-@import "./partials/_portfolio.scss";
-
-
-
-.home {
-    padding: 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
     background-color: $white;
-    width: 100%;
-    min-height: 100vh;
-    transition: opacity 4s;
+    padding-bottom: 4rem;
 }
-

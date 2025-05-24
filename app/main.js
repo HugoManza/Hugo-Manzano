@@ -15,7 +15,7 @@ const proyects = [
     {
         ID: 0,
         Name: "De la Huerta a tu Puerta",
-        Folder: "./DLHaTP",
+        Folder: "DLHaTP",
         Skill: ["Ilustración", "Photoshop"],
         Portfolio: ["Branding", "Ilustración"],
         Imgs: ["HTP (0).jpg", "HTP (1).jpg", "HTP (2).jpg", "HTP (3).jpg", "HTP (4).jpg", "HTP (5).jpg", "HTP (6).jpg"],
@@ -27,7 +27,7 @@ const proyects = [
     {
         ID: 3,
         Name: "ÑAÑAÑA",
-        Folder: "./ÑAÑAÑA",
+        Folder: "ÑAÑAÑA",
         Skill: ["Photoshop", "InDesign", "Ilustrator"],
         Portfolio: ["Branding", "Maquetación"],
         Imgs: ["NA (1).jpg", "NA (2).jpg", "NA (3).jpg", "NA (4).jpg", "NA (5).jpg", "NA (6).jpg", "NA (7).jpg"],
@@ -38,7 +38,7 @@ const proyects = [
     {
         ID: 4,
         Name: "Teatros del Canal",
-        Folder: "./Teatros",
+        Folder: "Teatros",
         Skill: ["Ilustrator", "Web"],
         Portfolio: ["Branding"],
         Imgs: ["Teatros (1).jpg", "Teatros (2).jpg"],
@@ -49,7 +49,7 @@ const proyects = [
     {
         ID: 1,
         Name: "Baby Driver",
-        Folder: "./BabyDriver",
+        Folder: "BabyDriver",
         Skill: ["Ilustración", "Video"],
         Portfolio: ["Motion"],
         Imgs: ["BabyDriver (0).JPG", "BabyDriver (1).JPG", "BabyDriver (2).JPG"],
@@ -60,7 +60,7 @@ const proyects = [
     {
         ID: 2,
         Name: "Web de Música",
-        Folder: "./WebMusica",
+        Folder: "WebMusica",
         Skill: ["Web"],
         Portfolio: ["Web"],
         Imgs: ["WebMusica (2).JPG", "WebMusica (3).JPG"],
@@ -197,7 +197,7 @@ function generatePortfolioItems() {
         // Create image element
         const img = document.createElement('img');
         // Use the first image from the project's Imgs array
-        img.src = `/assets/img/${project.Folder}/${project.Imgs[0]}`;
+        img.src = `assets/img/${project.Folder}/${project.Imgs[0]}`;
         img.alt = project.Name;
 
         // Create title overlay for hover effect

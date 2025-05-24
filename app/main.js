@@ -125,7 +125,7 @@ function populateProjectDetails(project) {
         carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
 
         const imgElement = document.createElement('img');
-        imgElement.src = `/assets/img/${project.Folder}/${img}`;
+        imgElement.src = `assets/img/${project.Folder}/${img}`;
         imgElement.className = 'd-block w-100';
         imgElement.alt = `${project.Name} - Image ${index + 1}`;
 

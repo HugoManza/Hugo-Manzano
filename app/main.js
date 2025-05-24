@@ -15,7 +15,7 @@ const proyects = [
     {
         ID: 0,
         Name: "De la Huerta a tu Puerta",
-        Folder: "DLHaTP",
+        Folder: "/DLHaTP",
         Skill: ["Ilustración", "Photoshop"],
         Portfolio: ["Branding", "Ilustración"],
         Imgs: ["HTP (0).jpg", "HTP (1).jpg", "HTP (2).jpg", "HTP (3).jpg", "HTP (4).jpg", "HTP (5).jpg", "HTP (6).jpg"],

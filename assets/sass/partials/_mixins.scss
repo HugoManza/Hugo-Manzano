@@ -3,8 +3,8 @@
         font-family: "Gabarito";
         font-style: normal;
         font-weight: 500;
-        src: url("https://fonts.googleapis.com/css?family=Gabarito");
-        src: local("assets/fonts/Gabarito-VariableFont_wght.ttf");
+        // src: url("https://fonts.googleapis.com/css?family=Gabarito") format('woff2');
+        src: local("assets/fonts/Gabarito-VariableFont_wght.ttf") format('truetype');
     }
 
     font-size: 1rem;

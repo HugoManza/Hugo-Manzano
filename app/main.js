@@ -41,7 +41,7 @@ const proyects = [
         Folder: "Teatros",
         Skill: ["Ilustrator", "Web"],
         Portfolio: ["Branding"],
-        Imgs: ["Teatros (1).jpg", "Teatros (2).jpg"],
+        Imgs: ["Teatros (1).jpg", "Teatros (3).jpg"],
         Year: 2024,
         Subtitle: "Ideantidad de Marca y Web",
         Description: "Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum nunc ultricies aliquet aliquam, porttitor inceptos cubilia ridiculus in molestie varius habitasse phasellus fames. Felis praesent semper ultrices mus vehicula curabitur diam ornare cubilia, sem cum egestas dignissim vitae pretium nostra nisi. Litora euismod sagittis porttitor aenean eget fusce, et habitant montes velit hac scelerisque non, vivamus auctor a rhoncus. Volutpat dictumst tempus elementum platea orci ridiculus, euismod vestibulum donec porttitor nisi blandit luctus, egestas sociis aliquet penatibus nisl. Massa mauris luctus eleifend varius in faucibus aliquet rutrum, suspendisse vel ultricies nam a nulla platea, sed hac auctor diam torquent id conubia. Maecenas est cum quis lacus primis vehicula, libero congue lectus diam egestas dignissim tellus, sollicitudin himenaeos luctus dictum felis.",

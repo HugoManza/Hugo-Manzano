@@ -3,8 +3,8 @@
         font-family: "Gabarito";
         font-style: normal;
         font-weight: 500;
-        // src: url("https://fonts.googleapis.com/css?family=Gabarito") format('woff2');
-        src: local("assets/fonts/Gabarito-VariableFont_wght.ttf") format('truetype');
+        src: url('https://fonts.googleapis.com/css?family=Gabarito') format('woff2');
+        src: url("assets/fonts/Gabarito-VariableFont_wght.ttf") format('truetype');
     }
 
     font-size: 1rem;
@@ -82,14 +82,14 @@ ul {
     padding: 0;
     margin: 0;
     margin: 0;
-    font-family: Gabarito;
+    font-family: 'Gabarito';
 }
 
 li {
     padding: 0;
     margin: 0;
     margin: 0;
-    font-family: Gabarito;
+    font-family: 'Gabarito';
 }
 
 @media screen and (max-width: 900px) {

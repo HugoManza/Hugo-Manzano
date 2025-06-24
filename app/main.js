@@ -85,7 +85,7 @@ function showProjectDetails(projectId) {
     const imgsProContainer = document.getElementById("imgsProContainer")
 
     // Actualizar la imagen principal
-    mainProjectImg.src = `/assets/img/${project.Folder}/${project.Imgs[0]}`
+    mainProjectImg.src = `./assets/img/${project.Folder}/${project.Imgs[0]}`
     mainProjectImg.alt = project.Name
 
     // Actualizar título y descripción
@@ -98,7 +98,7 @@ function showProjectDetails(projectId) {
         // Empezar desde la segunda imagen (índice 1)
         const projectImgIndex = index + 1
         if (projectImgIndex < project.Imgs.length) {
-            img.src = `/assets/img/${project.Folder}/${project.Imgs[projectImgIndex]}`
+            img.src = `./assets/img/${project.Folder}/${project.Imgs[projectImgIndex]}`
             img.alt = `${project.Name} - Imagen ${projectImgIndex + 1}`
             img.parentElement.style.display = "block"
         } else {
@@ -136,7 +136,7 @@ function renderProyects() {
 
         const proyectImg = document.createElement("img")
         proyectImg.className = "proyectImg"
-        proyectImg.src = `/assets/img/${proyecto.Folder}/${proyecto.Imgs[0]}`
+        proyectImg.src = `./assets/img/${proyecto.Folder}/${proyecto.Imgs[0]}`
         proyectImg.alt = proyecto.Name
 
         proyectButton.appendChild(proyectImg)

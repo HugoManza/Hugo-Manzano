@@ -1,40 +1,20 @@
-@font-face {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 100 900;
-    src: url('../assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
-    
-}
-
-
-
 
 @font-face {
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
-    font-family: 'Outfit';
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url("/assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
-    font-weight: 400
-}
-
-@font-face {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/outfit/v14/QGYvz_MVcBeNP4NJuktqQ4E.woff2) format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('../assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
 }
 
 body {
-    font-family: 'Outfit', ;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+
+body {
+    font-family: 'Outfit' , sans-serif, ;
 }
 
 h1 {
@@ -43,13 +23,13 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    font-family: 'Outfit', ;
+    font-family: 'Outfit' , sans-serif;
     font-weight: 750;
     color: $brand-color;
 }
 
 h2 {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 900;
@@ -59,7 +39,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-weight: bold;
 
 }
@@ -67,35 +47,35 @@ h3 {
 h4 {}
 
 p {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: medium;
 }
 
 ul {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: medium;
     list-style: none;
     gap: .5rem;
 }
 
 li {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: medium;
     list-style: none;
 }
 
 a {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: medium;
 }
 
 b {
     font-weight: bold;
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
 }
 
 button {
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
     font-size: medium;
 }
 
@@ -103,12 +83,12 @@ button {
 
 .sect {
     padding: 2.5rem 0 .5rem 0;
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
 }
 
 .under {
     text-decoration: underline;
-    font-family: 'Outfit';
+    font-family: 'Outfit' , sans-serif;
 }
 
 @media screen and (max-width: 1040px) {
@@ -119,13 +99,13 @@ button {
         text-transform: uppercase;
         font-weight: bold;
         margin: 0;
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-weight: 750;
         color: $brand-color;
     }
 
     h2 {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: 1.5rem;
         text-transform: uppercase;
         font-weight: 900;
@@ -135,7 +115,7 @@ button {
     h3 {
         font-size: 1rem;
         text-transform: uppercase;
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-weight: bold;
 
     }
@@ -147,26 +127,26 @@ button {
 
 
     p {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: medium;
         font-weight: 500;
     }
 
     ul {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: medium;
         list-style: none;
         gap: .5rem;
     }
 
     li {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: medium;
         list-style: none;
     }
 
     a {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: medium;
     }
 
@@ -175,7 +155,7 @@ button {
     }
 
     button {
-        font-family: 'Outfit';
+        font-family: 'Outfit' , sans-serif;
         font-size: medium;
     }
 

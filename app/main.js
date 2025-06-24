@@ -26,7 +26,7 @@ const proyects = [
         Folder: "CESIDA Re",
         Skill: ["Photoshop"],
         Portfolio: ["Branding", "Ilustración"],
-        Imgs: ["CESIDA (1).jfif", "CESIDA.jfif", "CESIDA (6).jpg", "CESIDA (3.1).jpg", "CESIDA (2).jpg", "CESIDA (5.1).jpg"],
+        Imgs: ["CESIDA (1).jfif", "CESIDA.jfif", "CESIDA (6).jpg", "CESIDA (8).jpg", "CESIDA (2).jpg", "CESIDA (5.1).jpg"],
         Year: 2025,
         Subtitle: "Ilustraciones para una campaña ficticia",
         Description: "A proyect made for a real life association that works at a National level in Spain, we were able to gain feedback on real time and work hand in hand with their designers. A fun proyect that does an excellent job on taking on an issue as important as HIV and AIDS and manages to come out with a very friendly and aprochable brand redisign.",

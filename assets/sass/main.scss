@@ -1,0 +1,46 @@
+//
+@import "./partials/reset";
+@import "./partials/vars";
+@import "./partials/mixins";
+
+* {
+    border: 1px solid tomato;
+}
+
+:root {
+    @include text;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+
+    .gradient {
+        background: linear-gradient(to top, rgba(255, 255, 255, 0), $base-color);
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 15;
+
+    }
+
+     .grod {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), $base-color);
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+
+    }
+
+}
+
+
+@import "./partials/_home.scss";
+@import "./partials/_slide.scss";
+@import "./partials/_proyects.scss";

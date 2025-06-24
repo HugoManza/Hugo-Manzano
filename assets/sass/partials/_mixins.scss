@@ -1,0 +1,165 @@
+@mixin text {
+    @font-face {
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+
+
+h1 {
+    font-size: 5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Outfit";
+    font-weight: 750;
+    color: $brand-color;
+}
+
+h2 {
+    font-family: "Outfit";
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Outfit";
+    font-weight: bold;
+
+}
+
+h4 {}
+
+p {}
+
+
+
+p {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+ul {
+    font-family: "Outfit";
+    font-size: medium;
+    list-style: none;
+    gap: .5rem;
+}
+
+li {
+    font-family: "Outfit";
+    font-size: medium;
+    list-style: none;
+}
+
+a {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+b {
+    font-weight: bold;
+}
+
+button {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+// Especial Stuff
+
+.sect {
+    padding: 2.5rem 0 .5rem 0;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1040px) {
+  
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Outfit";
+    font-weight: 750;
+    color: $brand-color;
+}
+
+h2 {
+    font-family: "Outfit";
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+h3 {
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-family: "Outfit";
+    font-weight: bold;
+
+}
+
+h4 {}
+
+p {}
+
+
+
+p {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+ul {
+    font-family: "Outfit";
+    font-size: medium;
+    list-style: none;
+    gap: .5rem;
+}
+
+li {
+    font-family: "Outfit";
+    font-size: medium;
+    list-style: none;
+}
+
+a {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+b {
+    font-weight: bold;
+}
+
+button {
+    font-family: "Outfit";
+    font-size: medium;
+}
+
+// Especial Stuff
+
+.sect {
+    padding: 2.5rem 0 .5rem 0;
+}
+
+.under {
+    text-decoration: underline;
+}
+}

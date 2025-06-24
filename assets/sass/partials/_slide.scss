@@ -1,0 +1,39 @@
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+  background-color: $brand-color;
+   overflow: hidden;
+  padding: .5rem 0;
+ width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+
+
+.words-track {
+  display: flex;
+
+ 
+}
+
+.words-slide {
+  display: flex;
+ 
+    animation: slide 30s linear infinite;
+}
+
+.words-slide h3 {
+  white-space: nowrap;
+  padding: 0 4rem;
+  font-size: 1.5rem;
+  color: $base-color;
+}

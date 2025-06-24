@@ -1,0 +1,452 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+    .intro {
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        color: $brand-color;
+        width: 40%;
+        justify-content: center;
+
+        .textInteract {}
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+        }
+    }
+}
+
+.aboutMe {
+    min-height: 100vh;
+    padding: 5rem 0rem 0rem 5rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    .infoAbout {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+
+
+        h3 {
+            color: $brand-color;
+        }
+
+        .topBlock {}
+
+        .underBlock {
+            display: flex;
+            gap: 3rem;
+
+            .leftBlock {
+                width: 30%;
+
+                .hi {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 1rem;
+
+                    .contButton {
+                        display: flex;
+
+                        h3 {
+                            display: flex;
+                            color: $base-color;
+                            background-color: $brand-color;
+                            padding: .25rem;
+                        }
+                    }
+                }
+            }
+
+
+            .rightBlock {
+                display: flex;
+                flex-direction: column;
+
+                .skills {
+                    display: flex;
+
+
+                    flex-direction: column;
+                    padding: 0rem;
+
+
+                    .skillBox {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+
+                        .skillShow {
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            gap: .5rem;
+
+                            .boxSkill {
+                                width: 45%;
+                                padding: .25rem;
+                                gap: .25rem;
+                                display: flex;
+                                flex-direction: column;
+                                transition: all .5s ease-in-out;
+                            }
+
+                            p {
+                                display: flex;
+                                width: auto;
+                                transition: all .3s ease-in-out;
+                            }
+
+                            .bar {
+
+                                background-color: $brand-gray;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .bar:hover {
+                                background-color: $base-color;
+
+                            }
+
+                            .one {
+                                width: 100%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .nineFive {
+                                width: 95%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .nine {
+                                width: 90%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+
+                            }
+
+                            .eightFive {
+                                width: 85%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .eight {
+                                width: 80%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .sevenFive {
+                                width: 75%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .seven {
+                                width: 70%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+
+                            .six {
+                                width: 60%;
+                                background-color: $brand-color;
+                                border-radius: 0px;
+                                transition: all .3s ease-in-out;
+                                height: 15px;
+                            }
+                        }
+
+                        .boxSkill:hover {}
+                    }
+
+
+
+                }
+            }
+        }
+    }
+
+    .imgsAbout {
+        width: 45%;
+        align-items: end;
+        display: flex;
+
+        .imgCont {
+
+            overflow: hidden;
+            padding-top: 2rem;
+
+            img {
+                width: 150%;
+                height: 150%;
+                scale: 1.5;
+                align-self: flex-end;
+                margin-bottom: 5rem;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+
+@media screen and (max-width: 1040px) {
+
+    .aboutMe {
+        min-height: 100vh;
+        padding: 5rem 5rem 0rem 5rem;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+
+        .infoAbout {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 0rem;
+
+
+            h3 {
+                color: $brand-color;
+            }
+
+            .topBlock {}
+
+            .underBlock {
+                display: flex;
+                flex-direction: column-reverse;
+
+
+                .leftBlock {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+
+                    .lB {
+                        width: 45%;
+
+                    }
+
+                    .hi {
+                        display: flex;
+
+                        gap: 1rem;
+
+                        .contButton {
+                            display: flex;
+
+                            h3 {
+                                display: flex;
+                                color: $base-color;
+                                background-color: $brand-color;
+                                padding: .25rem;
+                            }
+                        }
+                    }
+                }
+
+
+                .rightBlock {
+                    display: flex;
+                    flex-direction: column;
+
+                    .skills {
+                        display: flex;
+
+
+                        flex-direction: column;
+                        padding: 0rem;
+
+
+                        .skillBox {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+
+                            .skillShow {
+                                display: flex;
+                                align-items: center;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                gap: .5rem;
+
+                                .boxSkill {
+                                    width: 45%;
+                                    padding: .25rem;
+                                    gap: .25rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    transition: all .5s ease-in-out;
+                                }
+
+                                p {
+                                    display: flex;
+                                    width: auto;
+                                    transition: all .3s ease-in-out;
+                                }
+
+                                .bar {
+
+                                    background-color: $brand-gray;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .bar:hover {
+                                    background-color: $base-color;
+
+                                }
+
+                                .one {
+                                    width: 100%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .nineFive {
+                                    width: 95%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .nine {
+                                    width: 90%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+
+                                }
+
+                                .eightFive {
+                                    width: 85%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .eight {
+                                    width: 80%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .sevenFive {
+                                    width: 75%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .seven {
+                                    width: 70%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+
+                                .six {
+                                    width: 60%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
+                            }
+
+                            .boxSkill:hover {}
+                        }
+
+
+
+                    }
+                }
+            }
+        }
+
+        .imgsAbout {
+            width: 45%;
+            align-items: end;
+            display: flex;
+            justify-content: center;
+
+            .imgCont {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                padding-top: 0;
+                overflow: visible;
+
+
+                img {
+                    display: flex;
+                    width: 150%;
+                    height: 150%;
+                    scale: 1.75;
+                    align-self: flex-end;
+                    margin-bottom: 0rem;
+                    overflow: visible;
+                    margin-left: 40vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .aboutMe {
+        padding: 1rem;
+    }
+}

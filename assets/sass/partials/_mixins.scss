@@ -2,7 +2,7 @@
     @font-face {
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-        font-family: "Outfit", sans-serif;
+        font-family: Outfit, sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -11,7 +11,7 @@
 
 
 @font-face {
-  font-family: 'Outfit', sans-serif;
+  font-family: Outfit, sans-serif;
   src: url("../assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
 
 }
@@ -24,13 +24,13 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-weight: 750;
     color: $brand-color;
 }
 
 h2 {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 900;
@@ -40,46 +40,43 @@ h2 {
 h3 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-weight: bold;
 
 }
 
 h4 {}
 
-p {}
-
-
-
 p {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 
 ul {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
     list-style: none;
     gap: .5rem;
 }
 
 li {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
     list-style: none;
 }
 
 a {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 
 b {
     font-weight: bold;
+    font-family: Outfit, sans-serf;
 }
 
 button {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 
@@ -87,10 +84,12 @@ button {
 
 .sect {
     padding: 2.5rem 0 .5rem 0;
+    font-family: Outfit, sans-serf;
 }
 
 .under {
     text-decoration: underline;
+    font-family: Outfit, sans-serf;
 }
 
 @media screen and (max-width: 1040px) {
@@ -101,13 +100,13 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-weight: 750;
     color: $brand-color;
 }
 
 h2 {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: 900;
@@ -117,7 +116,7 @@ h2 {
 h3 {
     font-size: .75rem;
     text-transform: uppercase;
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-weight: bold;
 
 }
@@ -129,25 +128,25 @@ p {}
 
 
 p {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 
 ul {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
     list-style: none;
     gap: .5rem;
 }
 
 li {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
     list-style: none;
 }
 
 a {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 
@@ -156,7 +155,7 @@ b {
 }
 
 button {
-    font-family: "Outfit";
+    font-family: Outfit, sans-serf;
     font-size: medium;
 }
 

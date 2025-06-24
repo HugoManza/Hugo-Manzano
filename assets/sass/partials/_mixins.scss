@@ -6,22 +6,20 @@
   font-display: swap;
 }
 
-body {
-  font-family: Outfit, Arial, sans-serif;
-}
+
 
 
  @font-face {
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-        font-family: Outfit,  Arial, sans-serif;
+        font-family: Outfit ;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
     }
 
 @font-face {
-  font-family: Outfit, Futura,  Arial, sans-serif;
+  font-family: Outfit ;
   src: url("../assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
 
 }
@@ -35,7 +33,9 @@ body {
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-
+body {
+  font-family: Outfit, ;
+}
 
 h1 {
     font-size: 5rem;
@@ -43,13 +43,13 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    font-family: Outfit, Futura,  Arial, sans-serif,;
+    font-family: Outfit ,;
     font-weight: 750;
     color: $brand-color;
 }
 
 h2 {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 900;
@@ -59,7 +59,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-weight: bold;
 
 }
@@ -67,35 +67,35 @@ h3 {
 h4 {}
 
 p {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
 }
 
 ul {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
     list-style: none;
     gap: .5rem;
 }
 
 li {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
     list-style: none;
 }
 
 a {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
 }
 
 b {
     font-weight: bold;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
 }
 
 button {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
 }
 
@@ -103,12 +103,12 @@ button {
 
 .sect {
     padding: 2.5rem 0 .5rem 0;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
 }
 
 .under {
     text-decoration: underline;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
 }
 
 @media screen and (max-width: 1040px) {
@@ -119,13 +119,13 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-weight: 750;
     color: $brand-color;
 }
 
 h2 {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 900;
@@ -135,7 +135,7 @@ h2 {
 h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-weight: bold;
 
 }
@@ -147,26 +147,26 @@ p {}
 
 
 p {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
     font-weight: 500;
 }
 
 ul {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
     list-style: none;
     gap: .5rem;
 }
 
 li {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
     list-style: none;
 }
 
 a {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
 }
 
@@ -175,7 +175,7 @@ b {
 }
 
 button {
-    font-family: Outfit, Futura,  Arial, sans-serif;
+    font-family: Outfit ;
     font-size: medium;
 }
 

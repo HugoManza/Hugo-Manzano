@@ -55,7 +55,7 @@ const proyects = [
         Year: 2024,
         Subtitle: "Ideantidad de Marca y Web",
         Description:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum nunc ultricies aliquet aliquam, porttitor inceptos cubilia ridiculus in molestie varius habitasse phasellus fames. Felis praesent semper ultrices mus vehicula curabitur diam ornare cubilia, sem cum egestas dignissim vitae pretium nostra nisi. Litora euismod sagittis porttitor aenean eget fusce, et habitant montes velit hac scelerisque non, vivamus auctor a rhoncus. Volutpat dictumst tempus elementum platea orci ridiculus, euismod vestibulum donec porttitor nisi blandit luctus, egestas sociis aliquet penatibus nisl. Massa mauris luctus eleifend varius in faucibus aliquet rutrum, suspendisse vel ultricies nam a nulla platea, sed hac auctor diam torquent id conubia. Maecenas est cum quis lacus primis vehicula, libero congue lectus diam egestas dignissim tellus, sollicitudin himenaeos luctus dictum felis.",
+            "A proyect that focused on redisigning the identity of one of Madrid's most important theaters, whose current identity has fallen outdated. The proyect aims to keep a hold of their current target while at the same time expanding towards a younger demographic. This was done with vibrant colors and an emphasis on geometry to really hold its ground.",
     },
     {
         ID: 5,

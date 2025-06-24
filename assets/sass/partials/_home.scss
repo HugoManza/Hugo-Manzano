@@ -43,7 +43,11 @@
             color: $brand-color;
         }
 
-        .topBlock {}
+        .topBlock {
+            .under {
+                 padding: 0rem 0 .5rem 0;
+            }
+        }
 
         .underBlock {
             display: flex;

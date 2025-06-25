@@ -56,7 +56,7 @@ const proyects = [
         Year: 2024,
         Subtitle: "Ideantidad de Marca y Web",
         Description:
-            "A branding proyect for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This allows us",
+            "A branding proyect for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This was one of the first proyects where I worked on brand identity, and worked on a lot of my essentials, leading to a clean finished result that fits well with the professional undertone of the brand.",
     },
     {
         ID: 5,

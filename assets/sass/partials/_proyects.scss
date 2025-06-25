@@ -6,6 +6,8 @@
     background-color: $base-color;
     z-index: 50;
 
+
+
     .proyects {
         display: flex;
         flex-direction: column;
@@ -32,7 +34,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                filter: drop-shadow(10px 10px 5px $brand-darkGray);
+               
                 transition: all 0.5s ease-in-out;
 
                 .proyectImg {
@@ -48,7 +50,7 @@
                 }
 
                 &:hover {
-                    filter: drop-shadow(5px 5px 2px $brand-darkGray);
+                    filter: drop-shadow(.5rem .5rem 0px $brand-color-hover);
 
                     .proyectImg {
                         transform: scale(1.1);
@@ -59,7 +61,7 @@
     }
 
     .proyectExp {
-        z-index: 200;
+        z-index: 100;
         position: fixed;
         top: 0;
         right: -100%;
@@ -74,21 +76,22 @@
 
 
         .close {
-            display: flex;
-            padding: 1.5rem 3rem;
-            justify-content: end;
-            flex-shrink: 0;
-            z-index: 10;
-            align-items: center;
+            z-index: 100;
+
 
             button {
-                color: $brand-darkGray;
-                padding: 2rem;
+                z-index: 100;
+                color: $black-color;
+                padding: 2rem 3rem;
                 align-items: center;
                 transition: all .2s ease-out;
-                filter: drop-shadow(2px 2px 3px);
-                z-index: 300;
+                filter: drop-shadow(2px 2px 3px) $base-color;
+                font-size: larger;
+
                 font-weight: bold;
+                position: absolute;
+                right: 0;
+
 
 
             }
@@ -99,7 +102,7 @@
         .close {
             button:hover {
                 color: $brand-color;
-                font-size: larger;
+                font-size: 1.5rem;
                 transition: all .3s ease-in;
 
             }
@@ -162,6 +165,7 @@
                         h2 {
                             color: $base-color;
                             padding: .25rem 5rem;
+                            text-align: center;
                         }
 
                     }
@@ -178,14 +182,14 @@
             .imgsPro {
                 display: grid;
                 grid-template-columns: repeat(6, 1fr);
-                grid-column-gap: 1rem;
-                grid-row-gap: 1rem;
+                grid-column-gap: 0rem;
+                grid-row-gap: 0rem;
                 padding: 0 0rem;
 
                 .examp {
-                    max-height: 50vh;
+                    max-height: 80vh;
                     object-fit: cover;
-                    filter: drop-shadow(5px 5px 3px $brand-darkGray);
+
                     transition: all 0.5s ease-in-out;
 
                     img {
@@ -246,7 +250,7 @@
         width: 100%;
         flex-direction: column;
         background-color: $base-color;
-        z-index: 50;
+
 
         .proyects {
             display: flex;
@@ -290,7 +294,7 @@
                     }
 
                     &:hover {
-                        filter: drop-shadow(5px 5px 2px $brand-darkGray);
+                       
 
                         .proyectImg {
                             transform: scale(1.1);
@@ -301,7 +305,7 @@
         }
 
         .proyectExp {
-            z-index: 200;
+
             position: fixed;
             top: 0;
             right: -100%;
@@ -316,33 +320,14 @@
 
 
             .close {
-                display: flex;
-                padding: 0rem 0rem;
-                justify-content: end;
-                flex-shrink: 0;
-                z-index: 10;
-                align-items: center;
 
-                button {
-                    color: $brand-darkGray;
-                    padding: 2rem;
-                    align-items: center;
-                    transition: all .2s ease-out;
-                    filter: drop-shadow(0px 0px 0px);
-                    z-index: 300;
-
-                }
+                button {}
 
 
             }
 
             .close {
-                button:hover {
-                    color: $brand-color;
-                    font-size: larger;
-                    transition: all .3s ease-in;
-
-                }
+                button:hover {}
             }
 
             // Contenedor scrolleable
@@ -410,20 +395,16 @@
                             width: 100%;
                             padding: 0.25rem 5rem;
                             align-self: center;
-                            padding: 2rem 1.5rem;
+                            padding: 2rem 1rem;
                         }
                     }
                 }
 
                 .imgsPro {
-                    display: grid;
-                    grid-template-columns: repeat(6, 1fr);
-                    grid-column-gap: 1rem;
-                    grid-row-gap: 1rem;
-                    padding: 0 0rem;
+
 
                     .examp {
-                        max-height: 50vh;
+                        max-height: 90vh;
                         object-fit: cover;
                         filter: drop-shadow(5px 5px 3px $brand-darkGray);
                         transition: all 0.5s ease-in-out;

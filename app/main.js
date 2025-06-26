@@ -46,6 +46,30 @@ const proyects = [
             "Charged with making a <b>high end cooking book</b>, I decided to focus on Japan. I drew inspiration from its traditional art and way of writing, as well as desingers such as <b>Ikko Tanaka.</b> \n I also got the chance to <b>print</b> the actual finished product to see the changes that happen from the screen to print. This resulted in making sure the files were correctly exported for the pressman to work with them.",
     },
     {
+        ID: 8,
+        Name: "IGOR",
+        Folder: "IGOR",
+        Skill: ["Ilustrator", "Web"],
+        Portfolio: ["Branding"],
+        Imgs: ["IGOR (1).jpg", "IGOR (2).jpg" , "IGOR (3).jpg", "IGOR (4).jpg", "IGOR (5).jpg", "IGOR (6).jpg", "IGOR (7).jpg", "IGOR (8).jpg"],
+        Year: 2024,
+        Subtitle: "Layout and Composition",
+        Description:
+            "Creative proyects are always fun to do, and being able to print a <b>booklet of 64 pages</b> was certainly an achivement at the time. Taking inspiration from the album by the same name, this proyect made me work on a system that would have to be used throughout the book. From the different paragraph styles to the compositions of the pages following a strict layout, everything had to have been thought about. \n The last challange would be sending it off to <b>print.</b> This meant we had to once again make sure the document was correctly formated for offset printing and check and mistakes that could ruin our work.",
+    },
+    {
+        ID: 5,
+        Name: "Teatros del Canal",
+        Folder: "Teatros",
+        Skill: ["Ilustrator", "Web"],
+        Portfolio: ["Branding"],
+        Imgs: ["Teatros (1).jpg", "Teatros (6).jpg", "Teatros (3).jpg", "Teatros (1).gif", "Teatros (5).jpg", "Teatros (2).JPG"],
+        Year: 2024,
+        Subtitle: "Ideantidad de Marca y Web",
+        Description:
+            "A branding proyect for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This was one of the first proyects where I worked on brand identity, and worked on a lot of my essentials, leading to a clean finished result that fits well with the professional undertone of the brand.",
+    },
+    {
         ID: 4,
         Name: "De la Huerta a tu Puerta",
         Folder: "DLHaTP",
@@ -59,18 +83,7 @@ const proyects = [
     },
 
 
-    {
-        ID: 5,
-        Name: "Teatros del Canal",
-        Folder: "Teatros",
-        Skill: ["Ilustrator", "Web"],
-        Portfolio: ["Branding"],
-        Imgs: ["Teatros (1).jpg", "Teatros (6).jpg" , "Teatros (3).jpg", "Teatros (1).gif", "Teatros (5).jpg",  "Teatros (2).JPG"],
-        Year: 2024,
-        Subtitle: "Ideantidad de Marca y Web",
-        Description:
-            "A branding proyect for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This was one of the first proyects where I worked on brand identity, and worked on a lot of my essentials, leading to a clean finished result that fits well with the professional undertone of the brand.",
-    },
+
     {
         ID: 6,
         Name: "Cata La Lata",

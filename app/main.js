@@ -75,7 +75,7 @@ const proyects = [
         Folder: "Japan",
         Skill: ["InDesign", "Photoshop"],
         Portfolio: ["Layout",],
-        Imgs: ["Japan (2).jpg", "Japan (7).jpg", "Japan (8).jpg", "Japan (6).jpg", "Japan (1).JPG", "Japan (5).jpg", "Japan (3).jpg", "Japan (4).JPG"],
+        Imgs: ["Japan (2).jpg", "Japan (7).jpg", "Japan (8).jpg", "Japan (6).jpg", "Japan (1).JPG", "Japan (5).jpg", "Japan (3).jpg", "Japan (4).jpg"],
         Year: 2024,
         Subtitle: "",
         Description:

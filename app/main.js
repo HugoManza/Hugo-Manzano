@@ -18,7 +18,7 @@ const proyects = [
         Imgs: ["CESIDA (1).jfif", "CESIDA.jfif", "CESIDA (6).jpg", "CESIDA.gif", "CESIDA (5.1).jpg", "CESIDA (8).JPG",],
         Year: 2025,
         Subtitle: "Ilustraciones para una campaña ficticia",
-        Description: "A proyect made for a real life association that works at a National level in Spain, we were able to gain feedback on real time and work hand in hand with their designers. A fun proyect that does an excellent job on taking on an issue as important as HIV and AIDS and manages to come out with a very friendly and aprochable brand redisign.",
+        Description: "A proyect made for a real life association that works at a National level in Spain, we were able to gain <b>feedback on real time</b> and work hand in hand with their designers. A fun proyect that does an excellent job on taking on an issue as important as HIV and AIDS and manages to come out with a very friendly and <b>aprochable brand redisign</b>.",
 
     },
     {
@@ -34,24 +34,12 @@ const proyects = [
             "An experimental magazine where I seeked to <b>push my comfort zone as a designer,</b> experimenting with weird colors and mixing fonts, as well as bending some of those rules we have as designers. It really allowed us to focus more on how the CMYK pallets mix with one another and what we can do when we are focusing on more that just legilibility.\n Overall a really solid proyect made possible with InDesign and that really started to get me working on new ideas thanks to collaboarting with some of my peers.",
     },
     {
-        ID: 3,
-        Name: "Flavors Of Japan",
-        Folder: "Japan",
-        Skill: ["InDesign", "Photoshop"],
-        Portfolio: ["Layout",],
-        Imgs: ["Japan (2).JPG", "Japan (7).jpg", "Japan (8).jpg", "Japan (6).jpg", "Japan (1).JPG", "Japan (5).jpg", "Japan (3).jpg", "Japan (4).JPG"],
-        Year: 2024,
-        Subtitle: "",
-        Description:
-            "Charged with making a <b>high end cooking book</b>, I decided to focus on Japan. I drew inspiration from its traditional art and way of writing, as well as desingers such as <b>Ikko Tanaka.</b> \n I also got the chance to <b>print</b> the actual finished product to see the changes that happen from the screen to print. This resulted in making sure the files were correctly exported for the pressman to work with them.",
-    },
-    {
         ID: 8,
         Name: "IGOR",
         Folder: "IGOR",
         Skill: ["Ilustrator", "Web"],
         Portfolio: ["Branding"],
-        Imgs: ["IGOR (1).jpg", "IGOR (2).jpg" , "IGOR (3).jpg", "IGOR (4).jpg", "IGOR (5).jpg", "IGOR (6).jpg", "IGOR (7).jpg", "IGOR (8).jpg"],
+        Imgs: ["IGOR (1).jpg", "IGOR (2).jpg", "IGOR (3).jpg", "IGOR (4).jpg", "IGOR (5).jpg", "IGOR (6).jpg", "IGOR (7).jpg", "IGOR (8).jpg"],
         Year: 2024,
         Subtitle: "Layout and Composition",
         Description:
@@ -67,7 +55,7 @@ const proyects = [
         Year: 2024,
         Subtitle: "Ideantidad de Marca y Web",
         Description:
-            "A branding proyect for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This was one of the first proyects where I worked on brand identity, and worked on a lot of my essentials, leading to a clean finished result that fits well with the professional undertone of the brand.",
+            "A <b>branding proyect</b> for one of the most important theaters in Madrid, this proyect posed the challange of rebranding a well know location with an already established audiance. \n This was one of the first proyects where I worked on brand identity, and worked on a lot of my essentials, leading to a clean finished result that fits well with the professional undertone of the brand.",
     },
     {
         ID: 4,
@@ -79,8 +67,22 @@ const proyects = [
         Year: 2025,
         Subtitle: "Ilustraciones para una campaña ficticia",
         Description:
-            "A collaborative ilustration campagin done as a proposal to promote the purchases in local buisnesses and products. It was a proyect that really helped me expand a little more my horizons and get a real feeling for what it's like to work in a group with ideas so different to your own yet still being able to combine them to achive an <b>excellent result</b>.",
+            "A collaborative <b>illustration campaign</b> done as a proposal to promote the purchases in local buisnesses and products. It was a proyect that really helped me expand a little more my horizons and get a real feeling for what it's like to work in a <b>group with ideas so different</b> to your own yet still being able to combine them to achive an excellent result.",
     },
+    {
+        ID: 3,
+        Name: "Flavors Of Japan",
+        Folder: "Japan",
+        Skill: ["InDesign", "Photoshop"],
+        Portfolio: ["Layout",],
+        Imgs: ["Japan (2).JPG", "Japan (7).jpg", "Japan (8).jpg", "Japan (6).jpg", "Japan (1).JPG", "Japan (5).jpg", "Japan (3).jpg", "Japan (4).JPG"],
+        Year: 2024,
+        Subtitle: "",
+        Description:
+            "Charged with making a <b>high end cooking book</b>, I decided to focus on Japan. I drew inspiration from its traditional art and way of writing, as well as desingers such as <b>Ikko Tanaka.</b> \n I also got the chance to <b>print</b> the actual finished product to see the changes that happen from the screen to print. This resulted in making sure the files were correctly exported for the pressman to work with them.",
+    },
+
+
 
 
 

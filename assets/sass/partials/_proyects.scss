@@ -34,7 +34,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-               
+
                 transition: all 0.5s ease-in-out;
 
                 .proyectImg {
@@ -70,7 +70,7 @@
         background-color: $base-color;
         transition: right 0.3s ease-in-out;
 
-        // Crear un contenedor scrolleable interno
+       
         display: flex;
         flex-direction: column;
 
@@ -108,12 +108,12 @@
             }
         }
 
-        // Contenedor scrolleable
+
         .scroll-container {
             flex: 1;
             overflow-y: auto;
             overflow-x: hidden;
-            padding-bottom: 2rem;
+
 
         }
 
@@ -294,7 +294,7 @@
                     }
 
                     &:hover {
-                       
+
 
                         .proyectImg {
                             transform: scale(1.1);
@@ -313,8 +313,6 @@
             height: 100vh;
             background-color: $base-color;
             transition: right 0.3s ease-in-out;
-
-            // Crear un contenedor scrolleable interno
             display: flex;
             flex-direction: column;
 
@@ -330,14 +328,8 @@
                 button:hover {}
             }
 
-            // Contenedor scrolleable
-            .scroll-container {
-                flex: 1;
-                overflow-y: auto;
-                overflow-x: hidden;
-                padding-bottom: 2rem;
 
-            }
+            .scroll-container {}
 
             .expBox {
                 flex-direction: column;

@@ -210,6 +210,14 @@
                                     transition: all .3s ease-in-out;
                                     height: 15px;
                                 }
+
+                                .sixFive {
+                                    width: 65%;
+                                    background-color: $brand-color;
+                                    border-radius: 0px;
+                                    transition: all .3s ease-in-out;
+                                    height: 15px;
+                                }
                             }
 
                             .boxSkill:hover {}

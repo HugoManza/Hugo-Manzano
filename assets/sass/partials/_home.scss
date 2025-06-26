@@ -264,6 +264,17 @@ ul {
 
 
 @media screen and (max-width: 1040px) {
+
+    .start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        z-index: -5;
+        height: 90vh;
+    }
+
     .next {
         .aboutMe {
             min-height: 100vh;
@@ -481,6 +492,16 @@ ul {
 
 
 @media screen and (max-width: 540px) {
+  .start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        z-index: -5;
+        height: 90vh;
+    }
+
     .next {
 
 
